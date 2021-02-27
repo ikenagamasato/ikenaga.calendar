@@ -1,0 +1,47 @@
+body {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #eee;
+}
+
+thead,
+tfoot ,th{
+  background:lightgray;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+tbody td:last-child {
+    color: blue;
+  }
+
+  tbody td:first-child{
+      color:red;
+  }
+
+  tfoot{
+      font-weight:bold;
+  }
+
+  .disbled{
+      opacity:0.3;
+  }
+
+  .today{
+      font-weight:bold;
+  }
+
+
+
+#prev,#next,#today{
+cursor:pointer;
+user-select:none;
+}
