@@ -5,7 +5,7 @@ body {
 }
 
 table {
-  justify-content: center;
+ align-items: center;
   border-collapse: collapse;
   border: 2px solid #eee;
 }
