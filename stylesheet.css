@@ -2,10 +2,16 @@ body {
   font-family: 'Courier New', monospace;
   font-size: 14px;
   display:flex;
+  width:100vh;
+  height:100vh;
+}
+
+flex{
+justify-content:center;
+  flex-direction:column;
 }
 
 table {
- align-items: center;
   border-collapse: collapse;
   border: 2px solid #eee;
 }
